@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+
+    /* Primary */
+--Cyan: hsl(179, 62%, 43%);
+--BrightYellow: hsl(71, 73%, 54%);
+
+    /* Neutral */
+
+--LightGray: hsl(204, 43%, 93%);
+--GrayishBlue: hsl(218, 22%, 67%);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    background-color: var(--LightGray);
+    font-size: 1em;
+}
+.container{
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 10px;   
+
+}
+.container_top{
+    padding: 2rem 2.3rem;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    line-height: 1.3rem;
+}
+.container_top h1{
+    
+    font-size: 1.125em;
+    color: var(--Cyan);
+    padding: 0.5rem 0;
+}
+.container_top h2{
+    font-size: 1em;
+    color: var(--BrightYellow);
+    padding: 0.5rem 0;
+}
+.container_top p{
+    font-size: 0.875em;
+    color: var(--GrayishBlue);
+    padding: 0.5rem 0;
+}
+
+.container_bottom{
+    /* border: 2px solid yellow; */
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.container1{
+    /* border: 2px solid red; */
+    width: 50%;
+    /* padding-right: 1.5rem; */
+    background-color: var(--Cyan);
+    padding: 1.5rem 2rem;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.container1 h2{
+    font-size: 1em;
+    color: var(--LightGray);
+    padding: 0.5rem 0.5rem 0.75rem 0.5rem;
+}
+
+.price {
+    font-size: 1.75em;
+    font-weight: 700;
+    color: var(--LightGray);
+    padding: 0.75rem 0.25rem 1.5rem 0.5rem;
+}
+.date{
+    
+    font-size: 0.875em;
+    font-weight: lighter;
+    color: var(--LightGray);
+    opacity: 0.8;
+    padding: 0.5rem 0.5rem 1.5rem 0.25rem;
+}
+.container1 p{
+    color: var(--LightGray);
+    font-size: 0.875em;
+    /* font-weight: 400; */
+    padding: 0.5rem 0.5rem 1.8rem 0.5rem;
+    
+    
+}
+.btn{
+    background-color: var(--BrightYellow);
+    font-size: 0.875em;
+    font-weight: 700;
+    color: var(--LightGray);
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 0 4px 10px 1px #00000033;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.container2{
+    width: 50%;
+    background-color: hsl(179, 47%, 52%);
+    padding: 1.5rem 1.5rem;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.container2 h2{
+    font-size: 1em;
+    color: var(--LightGray);
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.container2 ul{
+    font-size: 0.75em;
+    font-weight: lighter;
+    list-style: none;
+    line-height: 1.15rem;
+    color: var(--LightGray);
+    opacity: 0.9;
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+    
+}
+.authorized{
+    font-size: 0.7em;
+    color: black;
+    position: relative;
+    top: 45px;
+}
+.authorized a{
+    color:black;
+}
+
+@media only screen and (max-width: 400px) {
+
+    body{
+        
+        height: 100vh;
+        width: 100vw;
+        place-content: center;
+        align-items: center;
+        place-items: center;
+    }
+    .container{
+        
+        margin: 0 auto;
+        width: 85%;
+        
+        border-radius: 10px;   
+    
+    }
+    .container_top{
+        margin-top: 10px;
+        padding: 1rem 1.3rem;
+        background-color: white;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        line-height: 1.3rem;
+    }
+    .container_bottom{
+        
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+               
+    }
+    .container1{
+        width: 100%;
+        padding: 1.5rem 2rem;
+        border-bottom-left-radius: 0px;
+        margin-bottom: 0px;
+
+    }
+    .container2{
+        width: 100%;
+        padding: 1.5rem 1.5rem;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .authorized{
+        position:unset
+        
+    }
+
+}
