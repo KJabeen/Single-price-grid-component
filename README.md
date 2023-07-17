@@ -8,10 +8,12 @@ Users should be able to view the optimal layout depending on their device's scre
 
 **Desktop version**
 
+![image](https://github.com/KJabeen/Single-price-grid-component/assets/126177876/660fe430-1639-4875-b29d-58c9af7c3d9c)
 
 
 **Mobile version**
 
+![image](https://github.com/KJabeen/Single-price-grid-component/assets/126177876/114f8f43-718d-42cd-9bf9-1cd74373be18)
 
 
 
